@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/register"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/ic_launcher_background"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+
+
+        />
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/winsky"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorText"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Description"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/btn_s_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:text="@string/login"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorText"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+
+        />
+    <Button
+        android:id="@+id/btn_s_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:text="@string/sign"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorText"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+
+</RelativeLayout>

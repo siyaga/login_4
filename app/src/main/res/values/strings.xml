@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">login_3</string>
+    <string name="winsky">WINSKY</string>
+    <string name="Description">this app very cool and very easy to use for new user</string>
+    <string name="login">Login</string>
+    <string name="sign">Sign Up</string>
+</resources>
